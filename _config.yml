@@ -1,1 +1,32 @@
-theme: jekyll-theme-slate
+only_build_toc_files: true
+repository:
+  url: github.com/RonaldThoelen/InteractieveCursusTest
+html:
+  use_issues_button: true
+  use_edit_page_button: true
+  use_repository_button: true
+execute:
+  execute_notebooks: "off"
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://colab.research.google.com"
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - amsmath
+    - colon_fence
+    # - deflist
+    - dollarmath
+    # - html_admonition
+    # - html_image
+    - linkify
+    # - replacements
+    # - smartquotes
+    - substitution
+    - tasklist
+sphinx:
+  config:
+    language: nl
+    togglebutton_hint: " "
