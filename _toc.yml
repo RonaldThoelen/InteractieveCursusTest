@@ -1,0 +1,6 @@
+format: jb-book
+root: readme
+options:
+  numbered: true
+parts:
+- caption: InteractieveNotebook
